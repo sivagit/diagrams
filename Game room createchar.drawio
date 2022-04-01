@@ -1,1 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T03:21:56.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" version="17.2.5" etag="eJiL5SJKenUStVbhnqte" type="github"><diagram id="SQ1ydkt3DCrElj4o7QKl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-01T03:29:32.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="YrUVwHteY_kF5lfFp84n" version="17.2.5" type="github">
+  <diagram id="SQ1ydkt3DCrElj4o7QKl" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ffTA3fCmQmEtv5dqW2Nr-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ffTA3fCmQmEtv5dqW2Nr-2" target="ffTA3fCmQmEtv5dqW2Nr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ffTA3fCmQmEtv5dqW2Nr-2" value="Invoke the agents create functions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ffTA3fCmQmEtv5dqW2Nr-5" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ffTA3fCmQmEtv5dqW2Nr-3" target="ffTA3fCmQmEtv5dqW2Nr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ffTA3fCmQmEtv5dqW2Nr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ffTA3fCmQmEtv5dqW2Nr-3" target="ffTA3fCmQmEtv5dqW2Nr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ffTA3fCmQmEtv5dqW2Nr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ffTA3fCmQmEtv5dqW2Nr-3" target="ffTA3fCmQmEtv5dqW2Nr-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="270" />
+              <mxPoint x="630" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ffTA3fCmQmEtv5dqW2Nr-3" value="If agent created and agent id get" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="150" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ffTA3fCmQmEtv5dqW2Nr-4" value="send id,modelinfo to two client using add agent schema" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ffTA3fCmQmEtv5dqW2Nr-8" value="store agent&amp;nbsp; info into log file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ffTA3fCmQmEtv5dqW2Nr-11" value="Invoke char load time" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
