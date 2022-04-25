@@ -1,1 +1,141 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T13:34:26.105Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.0" etag="ysHjXcjlyAbNRilC0T79" type="github"><diagram id="qidOZpFK8iECdpYsmlmi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-25T14:08:07.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="Kvc1FEKqkYDSIon3uJ1m" version="17.4.0" type="github">
+  <diagram id="qidOZpFK8iECdpYsmlmi" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-1" target="opD2k_d0pGmjrI9XMH5_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-1" value="store client1,client2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-2" target="opD2k_d0pGmjrI9XMH5_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-11" value="next user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-2" target="opD2k_d0pGmjrI9XMH5_-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="210" />
+              <mxPoint x="500" y="210" />
+              <mxPoint x="500" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-2" value="send the client Player position" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-3" target="opD2k_d0pGmjrI9XMH5_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-3" value="for all clients" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-6" target="opD2k_d0pGmjrI9XMH5_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-6" value="update the user stats" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-7" target="opD2k_d0pGmjrI9XMH5_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-7" value="for all clients" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-12" value="next user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="390" as="sourcePoint" />
+            <mxPoint x="398" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="493" y="390" />
+              <mxPoint x="493" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-13" target="opD2k_d0pGmjrI9XMH5_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-13" value="user deck instance create and store data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-15" target="opD2k_d0pGmjrI9XMH5_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-15" value="store random card level&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-16" target="opD2k_d0pGmjrI9XMH5_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-16" value="user decklist" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-17" value="next deck list" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0075" relative="1" as="geometry">
+            <mxPoint x="365" y="670" as="sourcePoint" />
+            <mxPoint x="393" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="670" />
+              <mxPoint x="488" y="670" />
+              <mxPoint x="488" y="620" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-20" target="opD2k_d0pGmjrI9XMH5_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-20" value="shuffle the deck list1 and get first 8 card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-23" target="opD2k_d0pGmjrI9XMH5_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-23" value="store the player info for log" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-24" target="opD2k_d0pGmjrI9XMH5_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-24" value="clients" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-25" value="next user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0075" relative="1" as="geometry">
+            <mxPoint x="365" y="950" as="sourcePoint" />
+            <mxPoint x="393" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="950" />
+              <mxPoint x="488" y="950" />
+              <mxPoint x="488" y="900" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-28" target="opD2k_d0pGmjrI9XMH5_-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-28" value="player1 has send option" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1060" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-30" target="opD2k_d0pGmjrI9XMH5_-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-30" value="send deck to player 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opD2k_d0pGmjrI9XMH5_-37" target="opD2k_d0pGmjrI9XMH5_-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-37" value="player2 has send option" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="opD2k_d0pGmjrI9XMH5_-38" value="send deck to player 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
