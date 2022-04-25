@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T12:16:36.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.0" etag="Y_P91QDo3fq_zRZ8Gkzy" type="github"><diagram id="Kp5jD5d_KgCsP4PWlMJY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-25T12:23:55.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="ommiexN-W7n8CTJlcdN-" version="17.4.0" type="github">
+  <diagram id="Kp5jD5d_KgCsP4PWlMJY" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Iq0sMheD6PhnEXFV0wlM-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Iq0sMheD6PhnEXFV0wlM-13" target="Iq0sMheD6PhnEXFV0wlM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iq0sMheD6PhnEXFV0wlM-13" value="construct the game arena request objecgt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iq0sMheD6PhnEXFV0wlM-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Iq0sMheD6PhnEXFV0wlM-14" target="Iq0sMheD6PhnEXFV0wlM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iq0sMheD6PhnEXFV0wlM-14" value="call the arena data request function" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iq0sMheD6PhnEXFV0wlM-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Iq0sMheD6PhnEXFV0wlM-16" target="Iq0sMheD6PhnEXFV0wlM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iq0sMheD6PhnEXFV0wlM-16" value="data received" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Iq0sMheD6PhnEXFV0wlM-18" value="call&amp;nbsp;&amp;nbsp;processData_AgentInfo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="360" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
