@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T14:08:15.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="vhrZ5ZPuND0ClD-O2GIu" type="github"><diagram id="h6ne_xMnNlhAZz61Otlh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-26T14:15:26.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="NEjnkJBtSb8nPNqjkXo5" version="17.4.6" type="github">
+  <diagram id="h6ne_xMnNlhAZz61Otlh" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RLs2NUpjfK6rI1hJz9eb-2" target="RLs2NUpjfK6rI1hJz9eb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-2" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="20" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RLs2NUpjfK6rI1hJz9eb-3" target="RLs2NUpjfK6rI1hJz9eb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-3" value="get the random vehicle appear time" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-12" value="timeout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RLs2NUpjfK6rI1hJz9eb-5" target="RLs2NUpjfK6rI1hJz9eb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RLs2NUpjfK6rI1hJz9eb-5" target="RLs2NUpjfK6rI1hJz9eb-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-5" value="appear random time" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RLs2NUpjfK6rI1hJz9eb-9" target="RLs2NUpjfK6rI1hJz9eb-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-9" value="get the random vehicle id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-16" value="call back" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RLs2NUpjfK6rI1hJz9eb-13" target="RLs2NUpjfK6rI1hJz9eb-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="320" />
+              <mxPoint x="600" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-13" value="get the vehicle property" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RLs2NUpjfK6rI1hJz9eb-15" target="RLs2NUpjfK6rI1hJz9eb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-15" value="get the random road" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RLs2NUpjfK6rI1hJz9eb-17" target="RLs2NUpjfK6rI1hJz9eb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-17" value="construct the vehicle creation object" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RLs2NUpjfK6rI1hJz9eb-19" target="RLs2NUpjfK6rI1hJz9eb-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-19" value="create the vehicle agent" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-21" value="add schema for the vehicle" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs2NUpjfK6rI1hJz9eb-23" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="350" width="117.5" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
