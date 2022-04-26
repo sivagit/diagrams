@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T13:27:58.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="_TXr508waA4o0UPfHPQy" type="github"><diagram id="uUo48Kj_1ZPDXkym05pY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-26T13:43:58.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="eTpQjLm_9etfdvSwUIiq" version="17.4.6" type="github">
+  <diagram id="uUo48Kj_1ZPDXkym05pY" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zWPJDwOlED2R5KBya7v6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zWPJDwOlED2R5KBya7v6-1" target="zWPJDwOlED2R5KBya7v6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zWPJDwOlED2R5KBya7v6-2" target="zWPJDwOlED2R5KBya7v6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-2" value="get the npc id based on trigger" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-7" value="callback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zWPJDwOlED2R5KBya7v6-4" target="zWPJDwOlED2R5KBya7v6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zWPJDwOlED2R5KBya7v6-4" target="zWPJDwOlED2R5KBya7v6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-4" value="call data server for get the npc info" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zWPJDwOlED2R5KBya7v6-6" target="zWPJDwOlED2R5KBya7v6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-6" value="construct the npc creation object" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zWPJDwOlED2R5KBya7v6-8" target="zWPJDwOlED2R5KBya7v6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-8" value="create the npc agent&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-10" value="add data in add agent schema" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zWPJDwOlED2R5KBya7v6-14" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="340" width="115" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
