@@ -1,1 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T06:43:49.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="4zghOxyZqFgRGA5ZLrLi" type="github"><diagram id="WobqLvRT_inrWKX9_zax">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-26T07:11:06.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="Lw9cPC4YABJGU0ta8DCr" version="17.4.6" type="github">
+  <diagram id="WobqLvRT_inrWKX9_zax" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cu4sW2lyRI6m9PXJMj3--1" target="cu4sW2lyRI6m9PXJMj3--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--1" value="remove the add agent schema" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cu4sW2lyRI6m9PXJMj3--2" target="cu4sW2lyRI6m9PXJMj3--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--2" value="call exit rate function for exit pop" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cu4sW2lyRI6m9PXJMj3--4" target="cu4sW2lyRI6m9PXJMj3--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--4" value="FOR all removed agents" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cu4sW2lyRI6m9PXJMj3--6" target="cu4sW2lyRI6m9PXJMj3--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--6" value="IF agent state schema" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cu4sW2lyRI6m9PXJMj3--10" target="cu4sW2lyRI6m9PXJMj3--4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="480" />
+              <mxPoint x="220" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--14" value="next pop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cu4sW2lyRI6m9PXJMj3--13">
+          <mxGeometry x="0.3471" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cu4sW2lyRI6m9PXJMj3--10" target="cu4sW2lyRI6m9PXJMj3--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--10" value="delete the state" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cu4sW2lyRI6m9PXJMj3--15" target="cu4sW2lyRI6m9PXJMj3--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--15" value="exited agents" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cu4sW2lyRI6m9PXJMj3--17" target="cu4sW2lyRI6m9PXJMj3--23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--17" value="created the exit object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cu4sW2lyRI6m9PXJMj3--19" target="cu4sW2lyRI6m9PXJMj3--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--19" value="create the exited people agent" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cu4sW2lyRI6m9PXJMj3--23" target="cu4sW2lyRI6m9PXJMj3--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--23" value="IF exit agents not people" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cu4sW2lyRI6m9PXJMj3--27" target="cu4sW2lyRI6m9PXJMj3--29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--27" value="IF statelog" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cu4sW2lyRI6m9PXJMj3--29" value="store the data." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
