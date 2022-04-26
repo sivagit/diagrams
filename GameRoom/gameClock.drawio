@@ -1,70 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T15:00:02.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="44p3j74v5sZ1HeTbjuMB" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-26T04:23:37.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="JBC1Uds4jkB4tpTkGtAH" version="17.4.6" type="github">
   <diagram id="rns7L9qJ6MOlvCS0Iuxq" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="D14roMK9ox9fEIwNGIsh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D14roMK9ox9fEIwNGIsh-1" target="D14roMK9ox9fEIwNGIsh-2">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D14roMK9ox9fEIwNGIsh-1" target="D14roMK9ox9fEIwNGIsh-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-1" value="calculate the minute and sec of time" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-1" value="calculate the minute and sec of time" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D14roMK9ox9fEIwNGIsh-2" target="D14roMK9ox9fEIwNGIsh-5">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D14roMK9ox9fEIwNGIsh-2" target="D14roMK9ox9fEIwNGIsh-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-2" value="IF current sec&amp;nbsp; = game time" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-2" value="IF current sec&amp;nbsp; = game time" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="130" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D14roMK9ox9fEIwNGIsh-5" target="D14roMK9ox9fEIwNGIsh-7">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D14roMK9ox9fEIwNGIsh-5" target="D14roMK9ox9fEIwNGIsh-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-5" value="set the game clock,time as 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-5" value="set the game clock,time as 0" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D14roMK9ox9fEIwNGIsh-7" target="D14roMK9ox9fEIwNGIsh-9">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D14roMK9ox9fEIwNGIsh-7" target="D14roMK9ox9fEIwNGIsh-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-7" value="call&amp;nbsp; wincondition and set animation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-7" value="call&amp;nbsp; wincondition and set animation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D14roMK9ox9fEIwNGIsh-9" target="D14roMK9ox9fEIwNGIsh-11">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D14roMK9ox9fEIwNGIsh-9" target="D14roMK9ox9fEIwNGIsh-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-9" value="set the truck animation and broad cast match end data" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-9" value="set the truck animation and broad cast match end data" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D14roMK9ox9fEIwNGIsh-11" target="D14roMK9ox9fEIwNGIsh-13">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D14roMK9ox9fEIwNGIsh-11" target="D14roMK9ox9fEIwNGIsh-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-11" value="construct the truck stats and store into log file" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-11" value="construct the truck stats and store into log file" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-13" value="call clearsimulation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="C9QqVmYSpkuRqLdnTOUL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D14roMK9ox9fEIwNGIsh-13" target="D14roMK9ox9fEIwNGIsh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D14roMK9ox9fEIwNGIsh-13" value="call clearsimulation" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-15" value="call&amp;nbsp;arrivalExitRateInterval with tourist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C9QqVmYSpkuRqLdnTOUL-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D14roMK9ox9fEIwNGIsh-15" target="C9QqVmYSpkuRqLdnTOUL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D14roMK9ox9fEIwNGIsh-15" value="call&amp;nbsp;arrivalExitRateInterval with tourist" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D14roMK9ox9fEIwNGIsh-16" target="D14roMK9ox9fEIwNGIsh-19">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D14roMK9ox9fEIwNGIsh-16" target="D14roMK9ox9fEIwNGIsh-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-16" value="IF current sec = next arrival" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-16" value="IF current sec = next arrival" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="30" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-21" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D14roMK9ox9fEIwNGIsh-19" target="D14roMK9ox9fEIwNGIsh-15">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-21" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D14roMK9ox9fEIwNGIsh-19" target="D14roMK9ox9fEIwNGIsh-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-23" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D14roMK9ox9fEIwNGIsh-19">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-23" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D14roMK9ox9fEIwNGIsh-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="670" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-19" value="If arrival is tourist" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-19" value="If arrival is tourist" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="130" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="D14roMK9ox9fEIwNGIsh-24" value="call&amp;nbsp;arrivalExitRateInterval with normal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D14roMK9ox9fEIwNGIsh-24" value="call&amp;nbsp;arrivalExitRateInterval with normal" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9QqVmYSpkuRqLdnTOUL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C9QqVmYSpkuRqLdnTOUL-1" target="C9QqVmYSpkuRqLdnTOUL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C9QqVmYSpkuRqLdnTOUL-1" value="call&amp;nbsp;chefIntervalCheck function for 2 player" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9QqVmYSpkuRqLdnTOUL-3" value="format the game time and reset the state interval" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
