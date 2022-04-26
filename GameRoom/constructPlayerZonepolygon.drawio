@@ -1,1 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T10:50:41.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="UvxLmrDowBvHqmyj1m1L" type="github"><diagram id="bdJo3ctBvhzy6ljHLpqE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-26T11:06:47.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="A9NYUdsocW49_ecS-kQY" version="17.4.6" type="github">
+  <diagram id="bdJo3ctBvhzy6ljHLpqE" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bA28fNXKKk7SZ8nxfSEb-1" target="bA28fNXKKk7SZ8nxfSEb-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bA28fNXKKk7SZ8nxfSEb-1" target="bA28fNXKKk7SZ8nxfSEb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-2" value="construct the zone polygon" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bA28fNXKKk7SZ8nxfSEb-6" target="bA28fNXKKk7SZ8nxfSEb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-6" value="FOR arena player zone" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bA28fNXKKk7SZ8nxfSEb-8" target="bA28fNXKKk7SZ8nxfSEb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-8" value="IF index not size" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bA28fNXKKk7SZ8nxfSEb-10" target="bA28fNXKKk7SZ8nxfSEb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-10" value="FOR player each zone" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bA28fNXKKk7SZ8nxfSEb-12" target="bA28fNXKKk7SZ8nxfSEb-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-12" value="IF index not comment" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bA28fNXKKk7SZ8nxfSEb-14" target="bA28fNXKKk7SZ8nxfSEb-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-14" value="construct the polygon Object" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bA28fNXKKk7SZ8nxfSEb-16" target="bA28fNXKKk7SZ8nxfSEb-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-16" value="create the key against the object" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bA28fNXKKk7SZ8nxfSEb-20" target="bA28fNXKKk7SZ8nxfSEb-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-20" value="FOR each zone tile id" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bA28fNXKKk7SZ8nxfSEb-22" target="bA28fNXKKk7SZ8nxfSEb-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-22" value="get the coordinate of the tile" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bA28fNXKKk7SZ8nxfSEb-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="420" />
+              <mxPoint x="720" y="420" />
+              <mxPoint x="720" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-29" value="next tile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bA28fNXKKk7SZ8nxfSEb-27">
+          <mxGeometry x="0.1054" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="80" as="targetPoint" />
+            <mxPoint x="570" y="410" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="570" y="420" />
+              <mxPoint x="450" y="420" />
+              <mxPoint x="450" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-31" value="next player zone" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bA28fNXKKk7SZ8nxfSEb-30">
+          <mxGeometry x="0.0242" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bA28fNXKKk7SZ8nxfSEb-24" value="store the value into polygon json" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
