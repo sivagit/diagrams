@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T04:45:36.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="W5kiS8YpxoywGRFcBbGW" type="github"><diagram id="Oe4tFHEV1c03bMHd5D3p">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-26T04:54:34.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="CqyhDaxKzxq-WSE5so9B" version="17.4.6" type="github">
+  <diagram id="Oe4tFHEV1c03bMHd5D3p" name="Page-1">
+    <mxGraphModel dx="1038" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YvUNZVzLCAVUeMZK9pI1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YvUNZVzLCAVUeMZK9pI1-1" target="YvUNZVzLCAVUeMZK9pI1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YvUNZVzLCAVUeMZK9pI1-1" value="increase the current milli sec by 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YvUNZVzLCAVUeMZK9pI1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YvUNZVzLCAVUeMZK9pI1-6" target="YvUNZVzLCAVUeMZK9pI1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YvUNZVzLCAVUeMZK9pI1-6" value="IF current sec = 1000" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YvUNZVzLCAVUeMZK9pI1-8" value="call gamClock and reset the current millisec" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
