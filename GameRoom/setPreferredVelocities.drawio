@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T08:57:08.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="983n75If2M1uylQp_5js" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T10:38:55.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="O6t46OQWDoTjcFwU_pxF" version="17.4.6" type="github">
   <diagram id="5fncajlDtrCnJXy9b40n" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -216,6 +216,12 @@
         <mxCell id="dib6iKje-ptkpL54VLFL-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-67" target="dib6iKje-ptkpL54VLFL-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.593;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-67" target="dib6iKje-ptkpL54VLFL-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-67" target="dib6iKje-ptkpL54VLFL-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-67" value="ELSE IF agent is foodtruck" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="30" y="820" width="80" height="80" as="geometry" />
         </mxCell>
@@ -243,6 +249,25 @@
         <mxCell id="dib6iKje-ptkpL54VLFL-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-75" target="dib6iKje-ptkpL54VLFL-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.39;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-75" target="dib6iKje-ptkpL54VLFL-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="660" />
+              <mxPoint x="440" y="600" />
+              <mxPoint x="807" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-75" target="dib6iKje-ptkpL54VLFL-114">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="660" />
+              <mxPoint x="440" y="600" />
+              <mxPoint x="740" y="600" />
+              <mxPoint x="740" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-75" value="IF state not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="345" y="620" width="80" height="80" as="geometry" />
         </mxCell>
@@ -259,7 +284,19 @@
         <mxCell id="dib6iKje-ptkpL54VLFL-79" value="IF truck state not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="345" y="730" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dib6iKje-ptkpL54VLFL-82" value="IF truck states undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="dib6iKje-ptkpL54VLFL-92" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-82" target="dib6iKje-ptkpL54VLFL-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-97" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-82" target="dib6iKje-ptkpL54VLFL-96">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="720" />
+              <mxPoint x="570" y="720" />
+              <mxPoint x="570" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-82" value="IF truck states schema undefind" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="485" y="620" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-89" value="create the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -267,6 +304,140 @@
         </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-90" value="update the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="445" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-91" value="create the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-96" value="update the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-98" target="dib6iKje-ptkpL54VLFL-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="710" />
+              <mxPoint x="760" y="710" />
+              <mxPoint x="760" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-98" value="initialize the truck stats array" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="760" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-100" target="dib6iKje-ptkpL54VLFL-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-100" value="IF truck serviced pop data" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-102" value="store the data" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="930" y="735" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-104" target="dib6iKje-ptkpL54VLFL-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-104" value="IF truck queue pop data" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-106" value="store the data" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="930" y="835" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="760" as="sourcePoint" />
+            <mxPoint x="790" y="759.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-114" target="dib6iKje-ptkpL54VLFL-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-114" value="IF statelog" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="565" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-115" value="update the truck data into current log" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-121" target="dib6iKje-ptkpL54VLFL-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-121" value="IF replaylog" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="695" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-122" value="update the truck data into current log" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-125" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="dib6iKje-ptkpL54VLFL-121">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="790" as="sourcePoint" />
+            <mxPoint x="680" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-126" value="Catch" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-128" target="dib6iKje-ptkpL54VLFL-130">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="1160" />
+              <mxPoint x="120" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-128" value="ELSE IF agent is tower" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-130" target="dib6iKje-ptkpL54VLFL-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-130" target="dib6iKje-ptkpL54VLFL-135">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="1080" />
+              <mxPoint x="280" y="1080" />
+              <mxPoint x="280" y="1075" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-130" value="TRY" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-132" value="call&amp;nbsp;update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-132" target="dib6iKje-ptkpL54VLFL-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-135" target="dib6iKje-ptkpL54VLFL-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-135" value="IF state not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1040" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-145" value="IF truck state not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-146" value="create the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-147" target="dib6iKje-ptkpL54VLFL-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-147" value="update the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="423" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-148" target="dib6iKje-ptkpL54VLFL-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-148" target="dib6iKje-ptkpL54VLFL-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-148" value="IF tower state not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-149" value="create the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-156" value="IF tower type is stock" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1230" width="67" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
