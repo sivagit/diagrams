@@ -1,1 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T14:31:54.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="iLamdDkSYzFqrjw3ieyQ" type="github"><diagram id="CrkfeKe50mWL2yHPkhIW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-27T14:58:02.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="8TCPlEfgcgr4O_C7dFmN" version="17.4.6" type="github">
+  <diagram id="CrkfeKe50mWL2yHPkhIW" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wT07hZxbpVdA6speAoGU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-1" target="wT07hZxbpVdA6speAoGU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-2" target="wT07hZxbpVdA6speAoGU-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="120" />
+              <mxPoint x="190" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-2" target="wT07hZxbpVdA6speAoGU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-2" value="TRY" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-5" value="CATCH" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-7" target="wT07hZxbpVdA6speAoGU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-7" value="IF agentinfo not undefined" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-9" target="wT07hZxbpVdA6speAoGU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-9" value="IF agentinfo has foodtruck" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-12" target="wT07hZxbpVdA6speAoGU-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-12" value="get the foodtruck data and tower ids" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-14" target="wT07hZxbpVdA6speAoGU-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-14" value="FOR all foodtruck data" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-16" target="wT07hZxbpVdA6speAoGU-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-16" value="call truck stats" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="450" />
+              <mxPoint x="390" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-18" value="call&amp;nbsp;getTrgtAgentType" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="230" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-20" target="wT07hZxbpVdA6speAoGU-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-20" value="call&amp;nbsp;getTruckAssociateInfo for truck related data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="425" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-22" target="wT07hZxbpVdA6speAoGU-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-22" value="Initialize the custom property object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-24" target="wT07hZxbpVdA6speAoGU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-24" value="call truck custom property get function" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="425" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-27" target="wT07hZxbpVdA6speAoGU-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-27" value="call&amp;nbsp;createAgent for creating agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="425" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-29" target="wT07hZxbpVdA6speAoGU-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-29" value="store the instance into sim array" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="420" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-35" target="wT07hZxbpVdA6speAoGU-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-35" value="set agent radius to truck" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="610" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-36" target="wT07hZxbpVdA6speAoGU-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-36" value="construct the game start animation req obj" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wT07hZxbpVdA6speAoGU-39" value="call&amp;nbsp;setAnimation for set animation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
