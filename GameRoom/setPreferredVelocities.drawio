@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T11:44:22.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="RKBPx0dfX_bUrT_iITum" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T11:48:13.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="mRrr5aJIE0P9U80w8nIN" version="17.4.6" type="github">
   <diagram id="5fncajlDtrCnJXy9b40n" name="Page-1">
     <mxGraphModel dx="1888" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -903,20 +903,63 @@
         <mxCell id="dib6iKje-ptkpL54VLFL-311" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-312" target="dib6iKje-ptkpL54VLFL-313">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-318" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-312" target="dib6iKje-ptkpL54VLFL-316">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-312" value="IF state is not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="30" y="3180" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-313" value="update the player 1,2 elixir schema" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="160" y="3190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dib6iKje-ptkpL54VLFL-315" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-316" target="dib6iKje-ptkpL54VLFL-317">
+        <mxCell id="dib6iKje-ptkpL54VLFL-315" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-316">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="3320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-323" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-316" target="dib6iKje-ptkpL54VLFL-321">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dib6iKje-ptkpL54VLFL-316" value="IF state is not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="dib6iKje-ptkpL54VLFL-316" value="IF state log" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="30" y="3280" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dib6iKje-ptkpL54VLFL-317" value="update the player 1,2 elixir schema" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="dib6iKje-ptkpL54VLFL-319" value="update the elixir data into current log" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="160" y="3290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-320" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-321">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="3430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-330" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-321" target="dib6iKje-ptkpL54VLFL-325">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-321" value="IF replay log" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="3390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-322" value="update the elixir data into current log" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="3400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-331" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-325" target="dib6iKje-ptkpL54VLFL-328">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-336" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-325" target="dib6iKje-ptkpL54VLFL-333">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-325" value="IF state log" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="3490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-337" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-328" target="dib6iKje-ptkpL54VLFL-335">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-328" value="IF replay log" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="3600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-333" value="send the log to writer server" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="3500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-335" value="send log to write server" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="3610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
