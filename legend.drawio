@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T05:09:32.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="WLfr6l41khre9ZhG_liH" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T05:13:38.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="tnZM88c0YSz8LBsq38us" version="17.4.6" type="github">
   <diagram id="69YoF8s6pK7iw70b-nQL" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,37 +16,40 @@
           <mxGeometry x="40" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-9" value="functions call" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="40" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-10" value="decesion making" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="610" width="80" height="80" as="geometry" />
+          <mxGeometry x="20" y="740" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-12" value="data sending" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="460" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-13" value="timeout" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="736.15" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-14" value="worker" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="596.15" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="336.15" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Gnrq6Jq-5mUZ2eu32NfB-15" target="Gnrq6Jq-5mUZ2eu32NfB-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-15" value="predefine proces" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="290" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-17" value="function return&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="40.000000000000014" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-18" value="game json data" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="290" y="330" width="120" height="80" as="geometry" />
+          <mxGeometry x="10" y="640" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-19" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="476.15" y="310" width="120" height="80" as="geometry" />
+          <mxGeometry x="196.14999999999998" y="620" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-20" value="multiple json data" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="480" y="320" width="120" height="80" as="geometry" />
+          <mxGeometry x="200" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-21" value="IF ,FOR,WHILE" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gnrq6Jq-5mUZ2eu32NfB-22" value="timeout" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="740" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
