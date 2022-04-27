@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T13:23:57.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="PGa0nV1VAX_7WKwhi3uG" type="github"><diagram id="oaQvbRAWDE8tGDOhSwLZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-27T13:31:42.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="mohR4kSRWOm6QPkpnUgJ" version="17.4.6" type="github">
+  <diagram id="oaQvbRAWDE8tGDOhSwLZ" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-1" target="eFoY1j1OGm18sMbZtbMv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="20" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-2" target="eFoY1j1OGm18sMbZtbMv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-2" value="IF gamestatus not undefined" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-7" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-4" target="eFoY1j1OGm18sMbZtbMv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-4" target="eFoY1j1OGm18sMbZtbMv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-4" value="IF game status 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-6" value="set the gameDraw anim trigger" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-8" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-9" target="eFoY1j1OGm18sMbZtbMv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-9" target="eFoY1j1OGm18sMbZtbMv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-9" value="ELSE IF game status 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-10" value="set player 1 = game win&lt;br&gt;player2 = gamelose anim trigger" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-12" target="eFoY1j1OGm18sMbZtbMv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-12" target="eFoY1j1OGm18sMbZtbMv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-12" value="ELSE IF game status 2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-13" value="set player 1 = game lose&lt;br&gt;player2 = gamewin anim trigger" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-17" target="eFoY1j1OGm18sMbZtbMv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-17" target="eFoY1j1OGm18sMbZtbMv-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-17" value="IF player 1 truck anim trigger" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-19" target="eFoY1j1OGm18sMbZtbMv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-19" value="construct the anim request object" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-21" value="call&amp;nbsp;setAnimation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-25" target="eFoY1j1OGm18sMbZtbMv-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-25" target="eFoY1j1OGm18sMbZtbMv-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-25" value="IF player 2 truck anim trigger" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eFoY1j1OGm18sMbZtbMv-27" target="eFoY1j1OGm18sMbZtbMv-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-27" value="construct the anim request object" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-28" value="call&amp;nbsp;setAnimation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eFoY1j1OGm18sMbZtbMv-30" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="750" width="105" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
