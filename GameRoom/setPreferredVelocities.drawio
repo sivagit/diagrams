@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T10:55:12.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="gipQm77nQxoDD8-dvM8t" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T11:31:26.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="jt4qFlvm1lBcJsGe0B2E" version="17.4.6" type="github">
   <diagram id="5fncajlDtrCnJXy9b40n" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -486,29 +486,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-206" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-171" target="dib6iKje-ptkpL54VLFL-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-171" value="ELSE IF agent is card" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="30" y="1540" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-174" target="dib6iKje-ptkpL54VLFL-176">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dib6iKje-ptkpL54VLFL-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-174" target="dib6iKje-ptkpL54VLFL-198">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="270" y="1480" />
-              <mxPoint x="270" y="1430" />
-              <mxPoint x="855" y="1430" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dib6iKje-ptkpL54VLFL-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-174" target="dib6iKje-ptkpL54VLFL-196">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="270" y="1480" />
-              <mxPoint x="270" y="1430" />
-              <mxPoint x="725" y="1430" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-174" value="call&amp;nbsp;update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="140" y="1450" width="120" height="60" as="geometry" />
@@ -532,6 +517,28 @@
         </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-186" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-180" target="dib6iKje-ptkpL54VLFL-184">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-180" target="dib6iKje-ptkpL54VLFL-198">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="1610" />
+              <mxPoint x="390" y="1540" />
+              <mxPoint x="598" y="1540" />
+              <mxPoint x="598" y="1490" />
+              <mxPoint x="855" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-180" target="dib6iKje-ptkpL54VLFL-196">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="1610" />
+              <mxPoint x="390" y="1540" />
+              <mxPoint x="600" y="1540" />
+              <mxPoint x="600" y="1490" />
+              <mxPoint x="725" y="1490" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-180" value="ELSE IF state is not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="300" y="1570" width="80" height="80" as="geometry" />
@@ -568,6 +575,277 @@
         </mxCell>
         <mxCell id="dib6iKje-ptkpL54VLFL-199" value="update the card data into current log" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="800" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-205" target="dib6iKje-ptkpL54VLFL-214">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="1980" />
+              <mxPoint x="120" y="1850" />
+              <mxPoint x="160" y="1850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-205" target="dib6iKje-ptkpL54VLFL-248">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-251" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-205" target="dib6iKje-ptkpL54VLFL-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-205" value="ELSE IF agent npc" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-217" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-214" target="dib6iKje-ptkpL54VLFL-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-214" value="TRY" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-216">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="1900" />
+              <mxPoint x="310" y="1900" />
+              <mxPoint x="310" y="1850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-216" value="call&amp;nbsp;update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-220" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-222" target="dib6iKje-ptkpL54VLFL-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-221" value="noi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-222" target="dib6iKje-ptkpL54VLFL-224">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="393" y="1920" />
+              <mxPoint x="393" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-222" value="IF update data empty but schema is available" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="353" y="1810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-223" value="delete the schema&amp;nbsp;" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="493" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-231" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-224" target="dib6iKje-ptkpL54VLFL-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-224" target="dib6iKje-ptkpL54VLFL-244">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="1980" />
+              <mxPoint x="440" y="1900" />
+              <mxPoint x="657" y="1900" />
+              <mxPoint x="657" y="1810" />
+              <mxPoint x="920" y="1810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-224" target="dib6iKje-ptkpL54VLFL-242">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="1980" />
+              <mxPoint x="440" y="1900" />
+              <mxPoint x="660" y="1900" />
+              <mxPoint x="660" y="1810" />
+              <mxPoint x="790" y="1810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-224" value="ELSE IF state is not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="353" y="1940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-226" value="IF card state not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-227" value="create the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-228" value="update the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="572" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-232" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-229" target="dib6iKje-ptkpL54VLFL-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-233" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-229" target="dib6iKje-ptkpL54VLFL-230">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-229" value="IF npc state not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1930" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-230" value="create the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="445" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-271" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-238" target="dib6iKje-ptkpL54VLFL-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-238" value="IF statelog" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="705" y="2250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-239" value="update the vehicle data into current log" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="685" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-272" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-240" target="dib6iKje-ptkpL54VLFL-241">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-240" value="IF replaylog" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="837" y="2250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-241" value="update the vehicle data into current log" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="820" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-242" value="IF statelog" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-243" value="update the npc data into current log" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="735" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-244" value="IF replaylog" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-245" value="update the npc data into current log" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="865" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-248" value="Catch" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-250" target="dib6iKje-ptkpL54VLFL-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-274" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-250" target="dib6iKje-ptkpL54VLFL-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-250" value="ELSE IF agent vehicle" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-262" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-253" target="dib6iKje-ptkpL54VLFL-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-253" value="call&amp;nbsp;update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-257" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-259" target="dib6iKje-ptkpL54VLFL-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-258" value="noi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-259" target="dib6iKje-ptkpL54VLFL-261">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="2280" />
+              <mxPoint x="360" y="2280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-259" value="IF update data empty but schema is available" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-260" value="delete the schema&amp;nbsp;" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-268" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-261" target="dib6iKje-ptkpL54VLFL-266">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-261" target="dib6iKje-ptkpL54VLFL-240">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="2340" />
+              <mxPoint x="410" y="2270" />
+              <mxPoint x="619" y="2270" />
+              <mxPoint x="619" y="2230" />
+              <mxPoint x="877" y="2230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-270" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-261" target="dib6iKje-ptkpL54VLFL-238">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="2340" />
+              <mxPoint x="410" y="2270" />
+              <mxPoint x="620" y="2270" />
+              <mxPoint x="620" y="2230" />
+              <mxPoint x="745" y="2230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-261" value="ELSE IF state is not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-263" value="update the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="537" y="2310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-264" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" target="dib6iKje-ptkpL54VLFL-263">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="2340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-265" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="2380" as="sourcePoint" />
+            <mxPoint x="470" y="2420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-266" value="IF vehicle state not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-267" value="create the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-273" target="dib6iKje-ptkpL54VLFL-279">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-273" value="ELSE IF agent props" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-286" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-279" target="dib6iKje-ptkpL54VLFL-283">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-279" value="call&amp;nbsp;update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-281" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-283" target="dib6iKje-ptkpL54VLFL-284">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-282" value="noi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-283" target="dib6iKje-ptkpL54VLFL-285">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="2660" />
+              <mxPoint x="360" y="2660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-283" value="IF update data empty but schema is available" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-284" value="delete the schema&amp;nbsp;" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-293" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="dib6iKje-ptkpL54VLFL-285" target="dib6iKje-ptkpL54VLFL-291">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-285" value="ELSE IF state is not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-288" value="update the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="537" y="2690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-289" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" target="dib6iKje-ptkpL54VLFL-288">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="2720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-290" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="2760" as="sourcePoint" />
+            <mxPoint x="470" y="2800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-291" value="IF props state not undefined" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dib6iKje-ptkpL54VLFL-292" value="create the schema instance" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2800" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
