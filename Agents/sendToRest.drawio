@@ -1,1 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T14:35:53.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="ZIVFvbF6KtYJhl97tnGz" type="github"><diagram id="WONiHPuW2hOkf8a2jrz5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-28T14:42:13.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="O9Z80H_LQNjs2nYtFv94" version="17.4.6" type="github">
+  <diagram id="WONiHPuW2hOkf8a2jrz5" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AviG5RNUqEpISVIczb9W-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-1" target="AviG5RNUqEpISVIczb9W-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-2" target="AviG5RNUqEpISVIczb9W-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-2" value="IF rest agent array doesn&#39;t have the id" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-6" target="AviG5RNUqEpISVIczb9W-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-6" value="store the id&amp;nbsp;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-8" target="AviG5RNUqEpISVIczb9W-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-8" value="IF pop has visited card arrya" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-10" target="AviG5RNUqEpISVIczb9W-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="450" />
+              <mxPoint x="350" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-10" value="get the visited card data" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-12" target="AviG5RNUqEpISVIczb9W-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-12" value="IF data not empty" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-14" target="AviG5RNUqEpISVIczb9W-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-14" value="FOR all visited card" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-16" target="AviG5RNUqEpISVIczb9W-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-16" value="IF visited card has visited pop list and it has this id" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-18" target="AviG5RNUqEpISVIczb9W-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="410" />
+              <mxPoint x="500" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-18" value="remove the id into visited pop list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-20" target="AviG5RNUqEpISVIczb9W-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-20" value="set rest agent property" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-22" target="AviG5RNUqEpISVIczb9W-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-22" value="set agent position out of arena" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-23" target="AviG5RNUqEpISVIczb9W-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-23" value="set agent speed as 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="530" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AviG5RNUqEpISVIczb9W-26" target="AviG5RNUqEpISVIczb9W-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-26" value="reset the rest agent props" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AviG5RNUqEpISVIczb9W-28" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
