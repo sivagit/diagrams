@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T14:16:12.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="maosk-e7uaLsLX3qAxuw" type="github"><diagram id="-sJJkOsArbW9-LsTOLkY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-28T14:20:50.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="SKCN_WONAozWuMzgktC2" version="17.4.6" type="github">
+  <diagram id="-sJJkOsArbW9-LsTOLkY" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bbeJA2i5l3xrXXeuY-fF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbeJA2i5l3xrXXeuY-fF-2" target="bbeJA2i5l3xrXXeuY-fF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbeJA2i5l3xrXXeuY-fF-2" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bbeJA2i5l3xrXXeuY-fF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbeJA2i5l3xrXXeuY-fF-3" target="bbeJA2i5l3xrXXeuY-fF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbeJA2i5l3xrXXeuY-fF-3" value="set the stop search and rest agent as false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbeJA2i5l3xrXXeuY-fF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbeJA2i5l3xrXXeuY-fF-5" target="bbeJA2i5l3xrXXeuY-fF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbeJA2i5l3xrXXeuY-fF-5" value="set the locked sight and attack range,total attacked&amp;nbsp; array" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbeJA2i5l3xrXXeuY-fF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbeJA2i5l3xrXXeuY-fF-7" target="bbeJA2i5l3xrXXeuY-fF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbeJA2i5l3xrXXeuY-fF-7" value="return property object" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbeJA2i5l3xrXXeuY-fF-9" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="380" width="115" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
