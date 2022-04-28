@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T05:52:12.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="TSI94j-tLNrkGwHPw1eb" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-28T06:30:08.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="dBbt7Bj-h6A6lmKiWWmR" version="17.4.6" type="github">
   <diagram id="CrkfeKe50mWL2yHPkhIW" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -128,10 +128,22 @@
         <mxCell id="wT07hZxbpVdA6speAoGU-41" value="set agent neightbour distance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="610" y="310" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-37" value="next foodtruk" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wT07hZxbpVdA6speAoGU-43" target="wT07hZxbpVdA6speAoGU-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="490" />
+              <mxPoint x="210" y="490" />
+              <mxPoint x="210" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wT07hZxbpVdA6speAoGU-43" value="create the agent search,prediction and attack instance" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KutbwSOixSmznZ3dP8HH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-1" target="KutbwSOixSmznZ3dP8HH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-1" target="KutbwSOixSmznZ3dP8HH-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KutbwSOixSmznZ3dP8HH-1" value="IF agentinfo has tower" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -168,7 +180,12 @@
           <mxGeometry x="410" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KutbwSOixSmznZ3dP8HH-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-15" target="KutbwSOixSmznZ3dP8HH-19">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="685" />
+              <mxPoint x="480" y="685" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="KutbwSOixSmznZ3dP8HH-15" value="call&amp;nbsp;createAgent for creating agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="410" y="600" width="120" height="60" as="geometry" />
@@ -179,8 +196,94 @@
         <mxCell id="KutbwSOixSmznZ3dP8HH-19" value="store the instance into sim array" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="427.5" y="710" width="85" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KutbwSOixSmznZ3dP8HH-21" value="set agent radius to truck" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="KutbwSOixSmznZ3dP8HH-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-21" target="KutbwSOixSmznZ3dP8HH-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-21" value="set agent radius to tower" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="620" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-23" target="KutbwSOixSmznZ3dP8HH-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-23" value="get the ppl tower property" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-24" target="KutbwSOixSmznZ3dP8HH-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-24" value="Initialize the custom property object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-25" target="KutbwSOixSmznZ3dP8HH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-25" value="call&amp;nbsp; ppl tower custom property get function" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="780" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-26" target="KutbwSOixSmznZ3dP8HH-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-26" value="call&amp;nbsp;createAgent for creating agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="780" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-27" target="KutbwSOixSmznZ3dP8HH-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-27" value="store the instance into sim array" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="650" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-39" value="next player tower" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-28" target="KutbwSOixSmznZ3dP8HH-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="833" y="830" />
+              <mxPoint x="180" y="830" />
+              <mxPoint x="180" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-28" value="set agent radius to tower" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="772.5" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-41" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-42" target="KutbwSOixSmznZ3dP8HH-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="980" />
+              <mxPoint x="180" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-42" value="IF agentsInfo&lt;br&gt;has people" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-44" target="KutbwSOixSmznZ3dP8HH-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-44" value="get the pop grp data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-46" target="KutbwSOixSmznZ3dP8HH-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-46" value="FOR all pop grp" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="960" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-50" target="KutbwSOixSmznZ3dP8HH-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-50" value="call&amp;nbsp;findPopgrpEntryZones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KutbwSOixSmznZ3dP8HH-54" target="KutbwSOixSmznZ3dP8HH-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-54" value="call&amp;nbsp;findZoneEntryPoint" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KutbwSOixSmznZ3dP8HH-56" value="call&amp;nbsp;findZoneExitPoint" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
