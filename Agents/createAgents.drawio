@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T12:04:05.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="tEGGv_SqSvJYCsB2yw1X" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-28T12:09:06.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="NpGOrtCYUftas3WLc_1h" version="17.4.6" type="github">
   <diagram id="CrkfeKe50mWL2yHPkhIW" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1424,8 +1424,97 @@
         <mxCell id="MdzE0R_9sSi4kF06ruCs-244" value="IF props data not undefined" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="3280" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-249" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdzE0R_9sSi4kF06ruCs-246" target="MdzE0R_9sSi4kF06ruCs-248">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MdzE0R_9sSi4kF06ruCs-246" value="FOR current props&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="3380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-251" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdzE0R_9sSi4kF06ruCs-248" target="MdzE0R_9sSi4kF06ruCs-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-253" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdzE0R_9sSi4kF06ruCs-248" target="MdzE0R_9sSi4kF06ruCs-252">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-248" value="IF props pos data not undefined&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="3500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-256" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MdzE0R_9sSi4kF06ruCs-250" target="MdzE0R_9sSi4kF06ruCs-254">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="3650" />
+              <mxPoint x="590" y="3300" />
+              <mxPoint x="670" y="3300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-250" value="get the position and direction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="3620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-252" value="get the position" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="3520" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-257" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdzE0R_9sSi4kF06ruCs-254" target="MdzE0R_9sSi4kF06ruCs-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-254" value="call&amp;nbsp;createAgent for creating agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="610" y="3320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-259" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdzE0R_9sSi4kF06ruCs-255" target="MdzE0R_9sSi4kF06ruCs-258">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-255" value="store the instance into sim array" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="627.5" y="3420" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-261" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdzE0R_9sSi4kF06ruCs-258" target="MdzE0R_9sSi4kF06ruCs-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-258" value="IF props direction" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="3510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MdzE0R_9sSi4kF06ruCs-260" target="MdzE0R_9sSi4kF06ruCs-262">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-260" value="set the direction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="3620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-265" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdzE0R_9sSi4kF06ruCs-262" target="MdzE0R_9sSi4kF06ruCs-263">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-262" value="set agent speed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="800" y="3320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MdzE0R_9sSi4kF06ruCs-263" target="MdzE0R_9sSi4kF06ruCs-240">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="3720" />
+              <mxPoint x="200" y="3720" />
+              <mxPoint x="200" y="3440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-267" value="Next props category" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MdzE0R_9sSi4kF06ruCs-266">
+          <mxGeometry x="-0.8223" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MdzE0R_9sSi4kF06ruCs-263" target="MdzE0R_9sSi4kF06ruCs-246">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="3450" />
+              <mxPoint x="950" y="3270" />
+              <mxPoint x="490" y="3270" />
+              <mxPoint x="490" y="3420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-269" value="next props list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MdzE0R_9sSi4kF06ruCs-268">
+          <mxGeometry x="-0.7967" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdzE0R_9sSi4kF06ruCs-263" value="set agent radius" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="800" y="3420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
