@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T13:56:24.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="1WU3rbF7V8uqJJvg2YdG" type="github"><diagram id="j94_6zL69dC6i-45bA3V">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-28T14:01:09.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="NlJcu3dOqWeKNac4cDES" version="17.4.6" type="github">
+  <diagram id="j94_6zL69dC6i-45bA3V" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HkqiuHNYSAUAg6Xflvkw-1" target="HkqiuHNYSAUAg6Xflvkw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HkqiuHNYSAUAg6Xflvkw-2" target="HkqiuHNYSAUAg6Xflvkw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-2" value="set the card player and locked sight,attack range array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HkqiuHNYSAUAg6Xflvkw-4" target="HkqiuHNYSAUAg6Xflvkw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-4" value="set the attacked stun and freeze boolean value" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HkqiuHNYSAUAg6Xflvkw-6" target="HkqiuHNYSAUAg6Xflvkw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-6" value="set the attacked agent and visited pop array&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HkqiuHNYSAUAg6Xflvkw-8" target="HkqiuHNYSAUAg6Xflvkw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-8" value="set the game related boolean values" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HkqiuHNYSAUAg6Xflvkw-10" target="HkqiuHNYSAUAg6Xflvkw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-10" value="set the target of card" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HkqiuHNYSAUAg6Xflvkw-12" target="HkqiuHNYSAUAg6Xflvkw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-12" value="return property&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HkqiuHNYSAUAg6Xflvkw-14" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
