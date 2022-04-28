@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T14:49:50.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="NN7nXBjZkGH1hBdZyRqv" type="github"><diagram id="k1Cdz-DLDrhF11Wx3e6i">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-28T14:51:22.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="T4Mra2VJH45mLuQ0Kkgv" version="17.4.6" type="github">
+  <diagram id="k1Cdz-DLDrhF11Wx3e6i" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K_zN6jlNr3flLt8Xv9GV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K_zN6jlNr3flLt8Xv9GV-1" target="K_zN6jlNr3flLt8Xv9GV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K_zN6jlNr3flLt8Xv9GV-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K_zN6jlNr3flLt8Xv9GV-5" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K_zN6jlNr3flLt8Xv9GV-2" target="K_zN6jlNr3flLt8Xv9GV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K_zN6jlNr3flLt8Xv9GV-2" value="IF card has life line value" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K_zN6jlNr3flLt8Xv9GV-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K_zN6jlNr3flLt8Xv9GV-4" target="K_zN6jlNr3flLt8Xv9GV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K_zN6jlNr3flLt8Xv9GV-4" value="call&amp;nbsp;reduceLifeAndHp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K_zN6jlNr3flLt8Xv9GV-6" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
