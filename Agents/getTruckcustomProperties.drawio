@@ -1,1 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T13:03:58.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="dm1SVoPu0QLzlwmfZGEk" type="github"><diagram id="FR2DWXBNz20dOjLAZKgg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-28T13:22:20.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="_hPBV6rEU9pwO37_o2_3" version="17.4.6" type="github">
+  <diagram id="FR2DWXBNz20dOjLAZKgg" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-1" target="EPu8V3-JHg0KKqBDFsws-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-2" target="EPu8V3-JHg0KKqBDFsws-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-2" value="initialize the preservice and post service array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-5" target="EPu8V3-JHg0KKqBDFsws-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-5" value="set npc trigger,stop search,locked attack and sight range target value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-7" target="EPu8V3-JHg0KKqBDFsws-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-7" value="set the player and opp truck id" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-9" target="EPu8V3-JHg0KKqBDFsws-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-9" value="set the truck business object" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-11" value="calculate the service time" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-14" target="EPu8V3-JHg0KKqBDFsws-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-14" value="set the stock and ppl tower id and initial truck hp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-15" target="EPu8V3-JHg0KKqBDFsws-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-15" value="set the hp treshold arra and value" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-19" target="EPu8V3-JHg0KKqBDFsws-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-19" value="FOR&amp;nbsp; threshold&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-21" target="EPu8V3-JHg0KKqBDFsws-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-21" target="EPu8V3-JHg0KKqBDFsws-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="200" />
+              <mxPoint x="680" y="200" />
+              <mxPoint x="680" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-30" value="next threshold&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EPu8V3-JHg0KKqBDFsws-29">
+          <mxGeometry x="0.0374" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-21" value="calculate the hp threshold hp value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-25" target="EPu8V3-JHg0KKqBDFsws-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-25" value="calculate the service time penalty and mech man trigger hp value" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPu8V3-JHg0KKqBDFsws-31" target="EPu8V3-JHg0KKqBDFsws-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-31" value="return property object" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EPu8V3-JHg0KKqBDFsws-33" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
