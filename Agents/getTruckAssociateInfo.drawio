@@ -1,1 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T06:31:22.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" version="17.4.6" etag="IknjWp4jr-yg5mPMSVrO" type="github"><diagram id="tBl8HPzjUWWQW7hCekLv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-29T07:23:41.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="GFFkpqX8gsyT9NqdN_9x" version="17.4.6" type="github">
+  <diagram id="tBl8HPzjUWWQW7hCekLv" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-1" target="TzyFaAYHPvw-00_mBGZv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-2" target="TzyFaAYHPvw-00_mBGZv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-2" value="initialize the truck queue and npc waiting point array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-4" target="TzyFaAYHPvw-00_mBGZv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-4" value="get the arena player data and truck data" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-6" target="TzyFaAYHPvw-00_mBGZv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-6" value="Initialize the truck object and set the position,ppltower, stock tower and truck q" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="280" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-9" target="TzyFaAYHPvw-00_mBGZv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-9" value="call&amp;nbsp;findTruckDeliveryRoad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="51.25" y="400" width="147.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-11" target="TzyFaAYHPvw-00_mBGZv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-11" value="call&amp;nbsp;findNewPoint&amp;nbsp;&lt;br&gt;for attack npc trigger point" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="55.63" y="500" width="138.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-14" target="TzyFaAYHPvw-00_mBGZv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-14" value="FOR delivery road points" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-21" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-16" target="TzyFaAYHPvw-00_mBGZv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-23" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-16" target="TzyFaAYHPvw-00_mBGZv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-16" value="IF point is stock man point" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-20" value="store the points" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="175" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-25" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-22" target="TzyFaAYHPvw-00_mBGZv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-22" target="TzyFaAYHPvw-00_mBGZv-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="320" />
+              <mxPoint x="260" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-27" value="next road &lt;br&gt;popints" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TzyFaAYHPvw-00_mBGZv-26">
+          <mxGeometry x="-0.4276" y="1" relative="1" as="geometry">
+            <mxPoint x="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-22" target="TzyFaAYHPvw-00_mBGZv-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-22" value="ELSE IF point is mech man point" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-24" value="store the points" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="295" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-28" target="TzyFaAYHPvw-00_mBGZv-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="470" />
+              <mxPoint x="490" y="470" />
+              <mxPoint x="490" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-28" value="store the&amp;nbsp; truck queue service point" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="400" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-30" target="TzyFaAYHPvw-00_mBGZv-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-30" value="FOR queue size count" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="TzyFaAYHPvw-00_mBGZv-33" target="TzyFaAYHPvw-00_mBGZv-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-33" value="&lt;font style=&quot;font-size: 10px&quot;&gt;call&amp;nbsp;shortenLineDistance&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="510" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TzyFaAYHPvw-00_mBGZv-35" value="store the points" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="210" width="80" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
