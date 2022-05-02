@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T13:58:19.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="F_JDAfXN1QLJH5bbmZF5" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T14:02:33.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="y7vu2akN_vD3oSnwLEbN" version="17.5.0" type="github">
   <diagram id="1RKU9HNqCACdmGvZMmP5" name="Page-1">
     <mxGraphModel dx="1038" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -267,8 +267,50 @@
         <mxCell id="Ez-ZwfZhHMJORxGf13h--90" value="set agent max speed&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="690" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-ZwfZhHMJORxGf13h--97" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="670" width="80" height="80" as="geometry" />
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--97" target="Ez-ZwfZhHMJORxGf13h--99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--97" value="IF card has dash effect" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--99" target="Ez-ZwfZhHMJORxGf13h--101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--99" value="set dash effect true" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--101" target="Ez-ZwfZhHMJORxGf13h--103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--101" value="IF dash true and not do dash" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--103" target="Ez-ZwfZhHMJORxGf13h--105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--103" value="call setDashattack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="840" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--105" target="Ez-ZwfZhHMJORxGf13h--107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--105" value="IF dash speed" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--107" target="Ez-ZwfZhHMJORxGf13h--109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--107" value="call setDashattack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--109" target="Ez-ZwfZhHMJORxGf13h--111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--109" value="set the target&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--111" value="call findPathRules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
