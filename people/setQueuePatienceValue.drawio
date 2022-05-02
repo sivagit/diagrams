@@ -1,1 +1,145 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T05:53:54.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" version="17.5.0" etag="18LB9CE6oMQe33n-GG_8" type="github"><diagram id="KtcQBUkCojHGQMxXPazg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-02T06:21:18.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="6Zf1wMHx2_IidAFdRmUr" version="17.5.0" type="github">
+  <diagram id="KtcQBUkCojHGQMxXPazg" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="48oArp-D5C5jhoCfdsh_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-1" target="48oArp-D5C5jhoCfdsh_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-5" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-2" target="48oArp-D5C5jhoCfdsh_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-2" target="48oArp-D5C5jhoCfdsh_-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="150" />
+              <mxPoint x="50" y="10" />
+              <mxPoint x="660" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-2" value="IF queue patience is false" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-4" target="48oArp-D5C5jhoCfdsh_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-4" value="set the queue patience is true and get the patience time" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-6" target="48oArp-D5C5jhoCfdsh_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-6" value="get the current time" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-8" target="48oArp-D5C5jhoCfdsh_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-8" value="&lt;font style=&quot;font-size: 9px&quot;&gt;define&amp;nbsp;animDurationTime&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="65" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-10" target="48oArp-D5C5jhoCfdsh_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-10" value="&lt;span style=&quot;font-size: 12px&quot;&gt;TIMEOUT queue patience sec end&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="85" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-12" target="48oArp-D5C5jhoCfdsh_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-12" value="get the pop grp leader and divide the patience value/2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="620" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-14" target="48oArp-D5C5jhoCfdsh_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-14" value="construct the animation req for queue patience" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="240" y="70" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-15" target="48oArp-D5C5jhoCfdsh_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-15" value="call&amp;nbsp;setAnimation and slab time&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-18" target="48oArp-D5C5jhoCfdsh_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-18" value="IF anim interaction is 0" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-19" target="48oArp-D5C5jhoCfdsh_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-19" value="set aim interaction as 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-20" target="48oArp-D5C5jhoCfdsh_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-20" value="&lt;font style=&quot;font-size: 9px&quot;&gt;call animDurationTime&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%209px%26quot%3B%26gt%3Bcall%20preAnimDurationTimefn%26lt%3Bbr%26gt%3Bwith%20current%20interaction%20and%20trigger%26lt%3Bbr%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23f8cecc%3BgradientColor%3D%23ea6b66%3BstrokeColor%3D%23b85450%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22410%22%20y%3D%2230%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%209px%26quot%3B%26gt%3Bcall%20preAnimDurationTimefn%26lt%3Bbr%26gt%3Bwith%20current%20interaction%20and%20trigger%26lt%3Bbr%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23f8cecc%3BgradientColor%3D%23ea6b66%3BstrokeColor%3D%23b85450%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22410%22%20y%3D%2230%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%209px%26quot%3B%26gt%3Bcall%20preAnimDurationTimefn%26lt%3Bbr%26gt%3Bwith%20current%20interaction%20and%20trigger%26lt%3Bbr%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23f8cecc%3BgradientColor%3D%23ea6b66%3BstrokeColor%3D%23b85450%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22410%22%20y%3D%2230%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;with next interaction and trigger&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-24" target="48oArp-D5C5jhoCfdsh_-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-24" value="&lt;font style=&quot;font-size: 9px&quot;&gt;call queue animDurationTimewith current interaction and trigger&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-26" target="48oArp-D5C5jhoCfdsh_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-26" value="&lt;font style=&quot;font-size: 9px&quot;&gt;TIMEOUT queue&lt;br&gt;PatienceVal END&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="435" y="60" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-27" value="&lt;font size=&quot;1&quot;&gt;call&amp;nbsp;exitGrpFromWaitPoint for grp move to exit point&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-31" target="48oArp-D5C5jhoCfdsh_-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-31" value="ELSE" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-33" target="48oArp-D5C5jhoCfdsh_-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-33" value="reset queue patience&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-35" target="48oArp-D5C5jhoCfdsh_-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-35" value="IF queue patience time" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-37" target="48oArp-D5C5jhoCfdsh_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-37" value="clear the queue patience animation timeout" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-39" target="48oArp-D5C5jhoCfdsh_-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-39" value="IF queue animation time" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48oArp-D5C5jhoCfdsh_-41" target="48oArp-D5C5jhoCfdsh_-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-41" value="clear the queue animation timeout" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48oArp-D5C5jhoCfdsh_-43" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
