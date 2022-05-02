@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T14:23:56.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="LL5aQVHSjcOpBaJOMVFb" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T14:33:23.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="_XnoA21aJkCatua5HtSc" version="17.5.0" type="github">
   <diagram id="1RKU9HNqCACdmGvZMmP5" name="Page-1">
     <mxGraphModel dx="1038" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -415,8 +415,67 @@
         <mxCell id="Ez-ZwfZhHMJORxGf13h--146" value="call&amp;nbsp;setCrdActnNeutrl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1290" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ez-ZwfZhHMJORxGf13h--150" value="ELSE IF target is&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--150" target="Ez-ZwfZhHMJORxGf13h--152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--150" value="&lt;font style=&quot;font-size: 9px&quot;&gt;ELSE IF locked attack range target is not empty&amp;nbsp;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="85" y="1170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--152" target="Ez-ZwfZhHMJORxGf13h--154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--152" value="call&amp;nbsp;searchTarget" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--154" target="Ez-ZwfZhHMJORxGf13h--156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--154" value="IF nearest sight rng is not empty" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--156" target="Ez-ZwfZhHMJORxGf13h--157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--156" value="construct the identify target object" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--157" target="Ez-ZwfZhHMJORxGf13h--158">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="1430" />
+              <mxPoint x="400" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--157" value="call&amp;nbsp;identifyTarget" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--163" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--158" target="Ez-ZwfZhHMJORxGf13h--162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--158" target="Ez-ZwfZhHMJORxGf13h--164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--158" value="IF attack range data is empty" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--162" value="set the target moved away" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--164" target="Ez-ZwfZhHMJORxGf13h--166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--164" value="&lt;font style=&quot;font-size: 8px&quot;&gt;IF attack &lt;br&gt;range data is not empty and locked target != this id&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--166" target="Ez-ZwfZhHMJORxGf13h--168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--166" value="return the search result" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--168" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
