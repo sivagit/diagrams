@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T10:32:29.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="EVuu-60MhrS4jJpDtTw4" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T10:33:43.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="dRUVy8fsIq_Umvx54sXT" version="17.5.0" type="github">
   <diagram id="F4rF8YPpSIRaqYhg_Sf8" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -579,6 +579,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="J5AI2GAW48L4zgALxvZB-226" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="J5AI2GAW48L4zgALxvZB-181" target="J5AI2GAW48L4zgALxvZB-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="J5AI2GAW48L4zgALxvZB-181" value="initialize the some variables" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="65" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
@@ -695,6 +698,15 @@
         </mxCell>
         <mxCell id="J5AI2GAW48L4zgALxvZB-221" value="store the point as slab" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="806" y="1105" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J5AI2GAW48L4zgALxvZB-228" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="J5AI2GAW48L4zgALxvZB-225" target="J5AI2GAW48L4zgALxvZB-227">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J5AI2GAW48L4zgALxvZB-225" value="IF threshold wait is true" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J5AI2GAW48L4zgALxvZB-227" value="set the waittime is 2 sec" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
