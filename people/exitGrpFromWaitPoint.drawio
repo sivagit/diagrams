@@ -1,1 +1,117 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T06:37:09.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" version="17.5.0" etag="NbzNXAPMEXTVcTSG1ecD" type="github"><diagram id="FSfn0SIO48mECE26W4RL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-02T07:01:41.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="2WPvqE-Kc2J29K62bEGV" version="17.5.0" type="github">
+  <diagram id="FSfn0SIO48mECE26W4RL" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KkCJewTqqFNbLBELfUVH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-1" target="KkCJewTqqFNbLBELfUVH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-2" target="KkCJewTqqFNbLBELfUVH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-2" value="FOR pop grp family" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-4" target="KkCJewTqqFNbLBELfUVH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-4" value="set queue patience value as false,&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-6" target="KkCJewTqqFNbLBELfUVH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-6" value="IF pop queue patience time&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-8" target="KkCJewTqqFNbLBELfUVH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-8" value="clear the queue patience timeout&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-10" target="KkCJewTqqFNbLBELfUVH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-10" value="&lt;font style=&quot;font-size: 9px&quot;&gt;IF truck &lt;br&gt;preservice data doesn&#39;t&lt;br&gt;&amp;nbsp;have the pop&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-12" target="KkCJewTqqFNbLBELfUVH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="770" />
+              <mxPoint x="45" y="770" />
+              <mxPoint x="45" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-15" value="next pop in grp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="KkCJewTqqFNbLBELfUVH-14">
+          <mxGeometry x="0.7501" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-12" target="KkCJewTqqFNbLBELfUVH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-12" value="remove the pop id into truck preservice data list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-16" target="KkCJewTqqFNbLBELfUVH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-16" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;call&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;font size=&quot;1&quot;&gt;reSetTarget&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%209px%26quot%3B%26gt%3Bdefine%20preAnimDurationTimefn%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23f8cecc%3BgradientColor%3D%23ea6b66%3BstrokeColor%3D%23b85450%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2265%22%20y%3D%22270%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;reSetTarget&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#ba0000&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;reSetTarget&lt;/span&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;reSetTargetreSetTargetreSetTargetreSetTarget&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-18" target="KkCJewTqqFNbLBELfUVH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-18" value="&lt;font style=&quot;font-size: 12px&quot;&gt;get the pop grp leader and construct truck mis anim request data&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-20" target="KkCJewTqqFNbLBELfUVH-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-20" value="call&amp;nbsp;setAnimation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-22" target="KkCJewTqqFNbLBELfUVH-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-22" value="FOR pop grp family" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-24" target="KkCJewTqqFNbLBELfUVH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-24" value="set pop is now group mode and reset the queue related props" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-26" target="KkCJewTqqFNbLBELfUVH-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-26" value="IF pop path not empty" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-28" target="KkCJewTqqFNbLBELfUVH-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-28" value="set the pop target&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="KkCJewTqqFNbLBELfUVH-30" target="KkCJewTqqFNbLBELfUVH-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-30" value="set agent speed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkCJewTqqFNbLBELfUVH-32" value="end" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="505" y="395" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
