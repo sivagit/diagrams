@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T14:02:33.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="y7vu2akN_vD3oSnwLEbN" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T14:15:17.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="imVSBBeiS7dmzM7g0t6b" version="17.5.0" type="github">
   <diagram id="1RKU9HNqCACdmGvZMmP5" name="Page-1">
     <mxGraphModel dx="1038" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -131,6 +131,14 @@
         </mxCell>
         <mxCell id="Ez-ZwfZhHMJORxGf13h--50" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--47" target="Ez-ZwfZhHMJORxGf13h--49">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--126" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--47" target="Ez-ZwfZhHMJORxGf13h--125">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="460" />
+              <mxPoint x="960" y="150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ez-ZwfZhHMJORxGf13h--47" value="IF search target != locked sight rng target" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="420" width="80" height="80" as="geometry" />
@@ -309,8 +317,100 @@
         <mxCell id="Ez-ZwfZhHMJORxGf13h--109" value="set the target&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="660" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--111" target="Ez-ZwfZhHMJORxGf13h--113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ez-ZwfZhHMJORxGf13h--111" value="call findPathRules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1010" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--116" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--113" target="Ez-ZwfZhHMJORxGf13h--115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="900" />
+              <mxPoint x="1130" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--118" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--113" target="Ez-ZwfZhHMJORxGf13h--117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--113" value="IF target is card" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--115" value="set target agent type card" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--120" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--117" target="Ez-ZwfZhHMJORxGf13h--119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--117" target="Ez-ZwfZhHMJORxGf13h--122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--117" value="ELSE IF target is np" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="990" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--119" value="set target agent type npc" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--121" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--122" target="Ez-ZwfZhHMJORxGf13h--123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--122" value="ELSE&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--123" value="set target agent type pop" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--128" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--125" target="Ez-ZwfZhHMJORxGf13h--127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--130" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--125" target="Ez-ZwfZhHMJORxGf13h--129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--125" value="ELSE IF locked sight rng = current target" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--127" value="Set the target" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--129" target="Ez-ZwfZhHMJORxGf13h--132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--129" value="&lt;font style=&quot;font-size: 8px&quot;&gt;ELSE IF current target is opptruck oppstock tower&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--132" target="Ez-ZwfZhHMJORxGf13h--134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--132" value="reset the locked sight range target&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--134" target="Ez-ZwfZhHMJORxGf13h--136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--134" value="call&amp;nbsp;setCrdActnNeutrl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--136" target="Ez-ZwfZhHMJORxGf13h--144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--136" value="IF search result is empty&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--144" target="Ez-ZwfZhHMJORxGf13h--145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--144" value="&lt;font style=&quot;font-size: 8px&quot;&gt;ELSE IF current target is opptruck oppstock tower&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="Ez-ZwfZhHMJORxGf13h--145" target="Ez-ZwfZhHMJORxGf13h--146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--145" value="reset the locked sight range target&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ez-ZwfZhHMJORxGf13h--146" value="call&amp;nbsp;setCrdActnNeutrl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
