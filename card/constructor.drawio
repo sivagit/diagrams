@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T12:18:00.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="V8EMvbIGDNqS2842l8UE" version="17.5.0" type="github"><diagram id="iFK_crYJgPJKWYKF7Nq0" name="Page-1">1ZrLcpswFIafxstkAIFtlomdS2eSNNO006Q7GWQgIxAVwjZ9+kogwFi2SxoS8Mro6P7r09EReARm4eaGwti/Jy7CI0NzNyMwHxmGroEp/xGWrLBYE7sweDRwZaHa8BT8QWVNaU0DFyWNgowQzIK4aXRIFCGHNWyQUrJuFlsS3Ow1hh5SDE8OxKr1Z+Ayv7BOLa2236LA88uedU3mhLAsLA2JD12y3jKBqxGYUUJY8RRuZggL8UpdinrXB3KrgVEUsTYVHh8u5z+ev7P0lx3Nb+8Xzhm+OQNFKyuIUzlhOViWlQoglwsik4Qyn3gkgviqtl5SkkYuEt1oPFWXuSMk5kadG18RY5lcXZgywk0+C7HMVaciZ5eQlDroyPhLJCD1EDtSTk5LzGWrAynUDSIhYjTjBSjCkAWr5uJDyZBXlatl5g9S6TeoriuqJ3wGTJG+FlaotPYDhp5imAuy5tutpYgrRBnaHJ22zJ1KVOVeBTK5rsG3pcnfYr4EvHOZrBOH02gJpzkoOA1FdZgkgReJmfhISMGF44NZkaIlY8Z9IJeGZ2cxUlboH9Q2Ee+A4bHVYLjyx1sQ68YeiscfRfH0xCk2W1I8GRTFpqK6QxFkgl+YrzyOERWNRNz1RlwAYwxDwWa0SOJKrwFxbPfNcRmRnSzIk5Yg24MCeXIY5MIdwyjgsWZAonJIXF0e6AYIu0meLZIJEg764WJoWFchR39Ym31QzAWk2bOof26VyRfZXJ6YbxqpTKb+n367Jf06GBT+9uFoJKaE+3CWDY1p0D/T40G46iWJmMy033fLA23htQYFr77vej3GTGrTWJDx75SUGWdJrhr31podb+o8/uSJ3y/XhZCQDzOPYjwxFUN7TfJTIEF0lZvFS5GyQz6Bos+iCYUH6pNwkSafcs80rOZF01Q3zHTPfpl+2H4ZRoze3X6x2u6XYQXtunrj37l77iMcOUX087ZToAuMQRNjfdy34zeGEaN3B3LbmF0fVtCuq1H79ddvoqe8rpMmjITHQpg+vbGxB+NPdccVHv2E5FXipRmfHwjJu4O9dYjeudfOq15QCrOtAjEJIpZstfwoDFvc2DunuLnzAWKnPJi+rzzQtB20ihHXoFVTfwd7hrJzH9CGKZt2z54Vy3EHFwg3uYJYHGBg7nAg+JkFLsXODByIL2RGGLhugTDicR9c5O0JsuQC8Maty5E1b8Pa0f2kuITq/JSdjra/TO1zFdo5mBhmY1XKN21vY61e7LIIWS7zlxQ7vqOLJVXfBZ72odjWTxjDusrrR+7yjFQhnoO5dQDRHJj0Hs2p10ck3ubtsotxECfoc2KFHZHMDxSJJ+uv44UzqP9jAK7+Ag==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-02T12:18:44.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="IBGQqPSkawrNe0Z0kJ79" version="17.5.0" type="github">
+  <diagram id="iFK_crYJgPJKWYKF7Nq0" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PNBDUXTtuZ9nDHMbc-lG-1" target="PNBDUXTtuZ9nDHMbc-lG-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PNBDUXTtuZ9nDHMbc-lG-2" target="PNBDUXTtuZ9nDHMbc-lG-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-2" value="assign the card rvo id,agent type" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PNBDUXTtuZ9nDHMbc-lG-4" target="PNBDUXTtuZ9nDHMbc-lG-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-4" value="create a helper instance&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PNBDUXTtuZ9nDHMbc-lG-7" target="PNBDUXTtuZ9nDHMbc-lG-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-7" value="create the animation related fields and set NA" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PNBDUXTtuZ9nDHMbc-lG-9" target="PNBDUXTtuZ9nDHMbc-lG-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-9" value="assign property" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1ymM6kO_uZuAY3SQaiNK-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PNBDUXTtuZ9nDHMbc-lG-13" target="PNBDUXTtuZ9nDHMbc-lG-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-13" value="&lt;font style=&quot;font-size: 9px&quot;&gt;IF parameter give json server conn&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" parent="1" source="PNBDUXTtuZ9nDHMbc-lG-17" target="PNBDUXTtuZ9nDHMbc-lG-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-17" value="FOR all custom property" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="PNBDUXTtuZ9nDHMbc-lG-19" target="PNBDUXTtuZ9nDHMbc-lG-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="340" />
+              <mxPoint x="380" y="340" />
+              <mxPoint x="380" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-22" value="Next custom propety" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" parent="PNBDUXTtuZ9nDHMbc-lG-21" vertex="1" connectable="0">
+          <mxGeometry x="0.3724" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" parent="1" source="PNBDUXTtuZ9nDHMbc-lG-19" target="PNBDUXTtuZ9nDHMbc-lG-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-19" value="assign to the class" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNBDUXTtuZ9nDHMbc-lG-23" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
