@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T12:24:27.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="GOL5J-0Kr_XzG8_WFHKu" version="17.5.0" type="github"><diagram id="JE347bc95eZaiT-d0Rc0" name="Page-1">5VlNc5swEP01PqZjIeOPo+vYSWfSpo3TZNqbYlRQAohIIrb767sKwpiI2rRxY5ieEKsV0r7dfbuyO3gSrc4ESYKP3KNhx+l6qw4+7TgO6uIhPLRknUncwSgT+IJ5RqkQzNlPmq800pR5VJYUFeehYklZuOBxTBeqJCNC8GVZ7QcPy7smxKeWYL4goS29ZZ4KMunQ7Rbyc8r8IN8Zdc1MRHJlI5AB8fhyS4SnHTwRnKtsFK0mNNTg5bhk62a/md0cTNBY1VmA1/70y3x2taDXnnsTnV4+zuRJfrgnEqbGYnNatc4hoB4gYl65UAH3eUzCaSF9L3gae1Tv04W3QueC8wSECIT3VKm1cS9JFQdRoKLQzNq2GPMkT8WC7jAgjwkifKp2GZrpaVu2NjBInVEeUSXWoCBoSBR7KnufmCDyN3oFzjAwUP8B7MhCXYIFyoK+AFajtAyYovOEPAOyhHyrCeITFYqudpptZocmHEyyYvO6LCJ/ZETBVtDnQXRwmHotD06nZnDiRgVn/z9B3W0U6o6F+vXVNwt4KCKJHiaCL6iU+0nhjiwe/GdnXKYqZDE9HFn03RJZIGSzBXIq6KL/r+gCWxBOxteT8zaB6LjHBnFogbiG/qtVBODWJIBBowgAtb3a1YUdNavcuRbsH2aFGbChr5HQOdgPlSYDASNfj0jsaagAWMhNOBfoKgVUMdYrpK0PTxJpaonvpH7A/YSsLR+LgEd3aQ1WOgD7bGjE0E+vJvtsbjmv8cb4QSXCTxW7n918vQ3QJ/n9rKIMto5+BnYeVJqKGpUGg5ppEBA4CcgDuol9ptOAxYBgngEs9mEcMllxpTlieKPRW8Z3NfnZ9bVR0b2fvQ9eNc3Sz5w9B5jxHe4P3pV7I5z3SvlHskw06174ZXOQV7iq7RehvNDu92mzrkLIbuSnF/PpUamkd8xKWY3SqO3hWbthbFijbneMea8nExKXPNB/TPXvu1mAnsgsQscaMEGL2aJB3HSZcLLsY9lMKim0kfpXbsnh01YmlLz49tmABse+tiK7f6G6PX+ZEGHIEkmPAhLuOXlF2wdTz309TLt6zi2UBI34zo7O6gCr27o3jsCXrR3GNaH9iwiE1+Jvmqy7KP7swtNf</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-02T12:24:44.792Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="iZM1TZMr3hGBhjAFmuFw" version="17.5.0" type="github">
+  <diagram id="JE347bc95eZaiT-d0Rc0" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-1" target="3ygEQSFRceTd5VmDOqFs-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-2" target="3ygEQSFRceTd5VmDOqFs-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-2" target="3ygEQSFRceTd5VmDOqFs-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-2" value="TRY" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-3" value="CATCH" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-8" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-5" target="3ygEQSFRceTd5VmDOqFs-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-5" target="3ygEQSFRceTd5VmDOqFs-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-5" value="IF target agent &lt;br&gt;and card has attackAgents&lt;br&gt;&amp;nbsp;array" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="40" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AktprgutijFVUWh1NsZG-2" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-7" target="AktprgutijFVUWh1NsZG-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-7" value="IF target agent have the card&amp;nbsp; id into attacking list" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="190" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="3ygEQSFRceTd5VmDOqFs-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="367.5" y="365" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-13" target="3ygEQSFRceTd5VmDOqFs-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-13" value="ELSE" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="40" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-15" target="3ygEQSFRceTd5VmDOqFs-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-15" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;user console" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-17" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="342.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="AktprgutijFVUWh1NsZG-1" value="remove the card id into target agent list" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
