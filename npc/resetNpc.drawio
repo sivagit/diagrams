@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T11:55:34.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" version="17.5.0" etag="3IxucTe1RZkUazZeIg7w" type="github"><diagram id="K3pi13G4DuiX_ON4Bkbz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-04T12:00:44.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="KoYSylimBMjj4GHdPQNa" version="17.5.0" type="github">
+  <diagram id="K3pi13G4DuiX_ON4Bkbz" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oUUXx9EhzC5QH9UwFtG3-1" target="oUUXx9EhzC5QH9UwFtG3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oUUXx9EhzC5QH9UwFtG3-2" target="oUUXx9EhzC5QH9UwFtG3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-2" value="get the truck id and reset the truck locked sight and attack npc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oUUXx9EhzC5QH9UwFtG3-4" target="oUUXx9EhzC5QH9UwFtG3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-4" value="reset the npc locked sight and attack&amp;nbsp;&lt;br&gt;clear interval&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oUUXx9EhzC5QH9UwFtG3-6" target="oUUXx9EhzC5QH9UwFtG3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-6" value="set the target of npc as truck point" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oUUXx9EhzC5QH9UwFtG3-8" target="oUUXx9EhzC5QH9UwFtG3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-8" value="set agent max spd&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="65" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oUUXx9EhzC5QH9UwFtG3-11" target="oUUXx9EhzC5QH9UwFtG3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-11" value="set moving animation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUUXx9EhzC5QH9UwFtG3-13" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
