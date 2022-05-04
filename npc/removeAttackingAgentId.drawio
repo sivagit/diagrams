@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T08:57:14.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="fttFtX1RMKYdq8BlUm9H" version="17.5.0" type="github"><diagram id="JE347bc95eZaiT-d0Rc0" name="Page-1">5Vnfd5owFP5rfOyOIeKPR2e13TndutWuPdtbChmkBUKTUGV//RIJIA1TNl2FsxcJN4nJ/e53v9xoD87C9QVDsf+RujjoWX133YPnPcsCfTiWD2VJM4s9mmQGjxFXDyoNS/IT5zO1NSEu5pWBgtJAkLhqdGgUYUdUbIgxuqoO+0GD6qox8rBhWDooMK33xBV+Zh3b/dJ+iYnn5yuDvu4JUT5YG7iPXLraMsF5D84YpSJrhesZDhR4OS7ZvMVveouNMRyJJhNg6s2/LBc3Dr517bvw/Pp5wc/yzb2gINEe692KNIcAuxIR/UqZ8KlHIxTMS+t7RpPIxWqdvnwrx1xRGksjkMZHLESqw4sSQaXJF2Gge01ftHucJszBOxzIOYGYh8UuR7NxypetBTRSF5iGWLBUDmA4QIK8VKOPNIm8YlyJs2xoqP8AdmCgzqUHwoC+BFahtPKJwMsYbQBZyXxrCOILZgKvd7qte8eaDjpZoX5dlcyfaJO/RfqcREeHadBxcloNyQlbRc7hf4K63SrULQP125tvBvDyEIlVM2bUwZzvF4UH5Dx5m2BcJyIgET6eWAztilgAYKoFsGrkYviv5AIaEM6mt7PLLoFo2acGcWyAmMr6q1MCYDcUgFGrBAB0/bRrCjto13FnG7B/WJRuyAU9hYTKwWEglBgw2fJUC0Wuunkgph6+3JgcLITUiqmaws0J8olCpS3RA1cPeUFBqRFk5tPwIWkgS0eQn0JHtP4MGspPcc05JBzTJxEzLxHkcXH39d4Hn/j3i5pzsHP6MzITodZV0Ko8GDXMAx/JnUi7jwvyV1mdLSQ/IglpnhIk8mQ7ILzmknNCvoPJWxK+Xg7NE7dVdN+v50c/R/XUz5RsGKdjB4ejd9VqCebVU/4lWWrqea/iUmzkgFB1/WqUH737Y9quyxEwS/v51XJ+UikZnPLorEdp0nV6Ni4hW1a6mzVkXvzxGEWVCAyfE/WLb0bQM54xdKoAY7jsLSvGou6UO8u+LOtJOGa9ze/enMqvNjKhEsW3zwYwOvVFFpgFDVYF++uECAISc3wSkODAyk+0fTAN7MNh2lWEbqHEcEiNEq9S0hk1YX1d98YUfF3bQdgQ27+goHwt/7nJyovy/y84/wU=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-04T08:57:48.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="tkZxwDLGygMwlHOUcIyE" version="17.5.0" type="github">
+  <diagram id="JE347bc95eZaiT-d0Rc0" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-1" target="3ygEQSFRceTd5VmDOqFs-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-2" target="3ygEQSFRceTd5VmDOqFs-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-2" target="3ygEQSFRceTd5VmDOqFs-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-2" value="TRY" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-3" value="CATCH" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-8" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-5" target="3ygEQSFRceTd5VmDOqFs-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-5" target="3ygEQSFRceTd5VmDOqFs-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-5" value="IF target agent &lt;br&gt;and npc has attackAgents&lt;br&gt;&amp;nbsp;array" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="40" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AktprgutijFVUWh1NsZG-2" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-7" target="AktprgutijFVUWh1NsZG-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-7" value="IF target agent have the npc id into attacking list" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="190" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="3ygEQSFRceTd5VmDOqFs-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="367.5" y="365" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-13" target="3ygEQSFRceTd5VmDOqFs-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-13" value="ELSE" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="40" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3ygEQSFRceTd5VmDOqFs-15" target="3ygEQSFRceTd5VmDOqFs-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-15" value="&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;user console" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ygEQSFRceTd5VmDOqFs-17" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="342.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="AktprgutijFVUWh1NsZG-1" value="remove the npc id into target agent list" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
