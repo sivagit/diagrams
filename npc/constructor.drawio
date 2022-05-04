@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T08:17:24.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" version="17.5.0" etag="j0sgX60dEQhTM4lELhZ5" type="github"><diagram id="ceKti_Ka-W3cxVjrc0Ye">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-04T08:48:19.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="58q8c2tse_V0cdwRrqDN" version="17.5.0" type="github">
+  <diagram id="ceKti_Ka-W3cxVjrc0Ye" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NSxaghfgCX7ByZmKsTus-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSxaghfgCX7ByZmKsTus-2" target="NSxaghfgCX7ByZmKsTus-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-2" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSxaghfgCX7ByZmKsTus-4" target="NSxaghfgCX7ByZmKsTus-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-4" value="assign the npc rvo id,agent type" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSxaghfgCX7ByZmKsTus-6" target="NSxaghfgCX7ByZmKsTus-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-6" value="create a helper instance&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSxaghfgCX7ByZmKsTus-8" target="NSxaghfgCX7ByZmKsTus-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-8" value="create the animation related fields and set NA" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSxaghfgCX7ByZmKsTus-10" target="NSxaghfgCX7ByZmKsTus-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-10" value="assign property" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="NSxaghfgCX7ByZmKsTus-12" target="NSxaghfgCX7ByZmKsTus-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-12" value="FOR all custom property" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="NSxaghfgCX7ByZmKsTus-16" target="NSxaghfgCX7ByZmKsTus-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="340" />
+              <mxPoint x="380" y="340" />
+              <mxPoint x="380" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-14" value="Next custom propety" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="NSxaghfgCX7ByZmKsTus-13">
+          <mxGeometry x="0.3724" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="NSxaghfgCX7ByZmKsTus-16" target="NSxaghfgCX7ByZmKsTus-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-16" value="assign to the class" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-17" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
