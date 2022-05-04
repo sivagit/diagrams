@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T05:28:53.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="mIfyCqfxqK8WFrs_N73D" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-04T05:30:22.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="pKDAAB77UK7zvCg6sLv6" version="17.5.0" type="github">
   <diagram id="bAbn8hl5mbLafxKMVpMg" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -65,17 +65,17 @@
         <mxCell id="p3mFZ6XsDzNMiNJtrRee-18" value="IF reaction anim is not NA" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="660" y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="b2dws0NkJSmJ5mnQZh7v-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p3mFZ6XsDzNMiNJtrRee-19" target="p3mFZ6XsDzNMiNJtrRee-23">
+        <mxCell id="b2dws0NkJSmJ5mnQZh7v-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p3mFZ6XsDzNMiNJtrRee-19" target="p3mFZ6XsDzNMiNJtrRee-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p3mFZ6XsDzNMiNJtrRee-19" value="reset into NA" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p3mFZ6XsDzNMiNJtrRee-22" value="return position" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="755" y="610" width="120" height="60" as="geometry" />
+        <mxCell id="b2dws0NkJSmJ5mnQZh7v-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p3mFZ6XsDzNMiNJtrRee-22" target="b2dws0NkJSmJ5mnQZh7v-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p3mFZ6XsDzNMiNJtrRee-23" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="665" y="250" width="90" height="30" as="geometry" />
+        <mxCell id="p3mFZ6XsDzNMiNJtrRee-22" value="return position" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b2dws0NkJSmJ5mnQZh7v-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b2dws0NkJSmJ5mnQZh7v-1" target="b2dws0NkJSmJ5mnQZh7v-5">
           <mxGeometry relative="1" as="geometry" />
@@ -118,6 +118,9 @@
         </mxCell>
         <mxCell id="b2dws0NkJSmJ5mnQZh7v-38" value="Set the stock as 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2dws0NkJSmJ5mnQZh7v-45" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
