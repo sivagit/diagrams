@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T12:45:21.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="RQpvW8D2CI8xixOwV16D" version="17.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T13:17:15.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="9ZQiKp9qWLvxQCzU2diA" version="17.5.1" type="github">
   <diagram id="p9XERGhviIlYU3CxLlId" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,8 +10,32 @@
         <mxCell id="5Png77VoJQPE08acSx5A-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="30" width="90" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="5Png77VoJQPE08acSx5A-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Png77VoJQPE08acSx5A-2" target="5Png77VoJQPE08acSx5A-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5Png77VoJQPE08acSx5A-2" value="IF vehicle has attack and sight range data" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="86" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Png77VoJQPE08acSx5A-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Png77VoJQPE08acSx5A-8" target="5Png77VoJQPE08acSx5A-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Png77VoJQPE08acSx5A-8" value="call&amp;nbsp;searchTarget" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="65" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Png77VoJQPE08acSx5A-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Png77VoJQPE08acSx5A-10" target="5Png77VoJQPE08acSx5A-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Png77VoJQPE08acSx5A-10" value="IF sight rng not empty" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Png77VoJQPE08acSx5A-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Png77VoJQPE08acSx5A-12" target="5Png77VoJQPE08acSx5A-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Png77VoJQPE08acSx5A-12" value="construct the filter object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Png77VoJQPE08acSx5A-14" value="call&amp;nbsp;identifyTarget" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="66" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
