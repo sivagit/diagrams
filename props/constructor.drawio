@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T13:14:44.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="IXITS0nDyRAe9VQwLlA-" version="18.0.0" type="github"><diagram id="ceKti_Ka-W3cxVjrc0Ye" name="Page-1">1ZnbctowEIafhstmbAuDuQyQpDNN007pTNPeCVvY6siWR5IB5+kr2fKZENOQ4NwkaLU6/fq0aMUILML9HYNx8JV6iIwsw9uPwHJkWaYBHPlPWdLcYk9nucFn2NNOlWGFn1DRUlsT7CHecBSUEoHjptGlUYRc0bBBxuiu6bahpDlqDH3UMaxcSLrWX9gTQW51bKOyf0bYD4qRTUPXhLBw1gYeQI/uaiZwMwILRqnIP4X7BSJKvEKXvN3tM7XlxBiKRJ8GD6s99IONv3icztM/4Rf+M+GfdC9bSBK9YD1ZkRYKIE8KoouUiYD6NILkprLOGU0iD6lhDFmqfO4pjaXRlMa/SIhU7y5MBJWmQIRE13aXoufFacJcdGT+eroCMh+JI37j3E+tpTaAFuoO0RAJlkoHhggUeNvcfKgZ8ku/Smb5QSt9gupWR3UuVyA60lfCKpV2ARZoFcNMkJ08bj1F3CIm0P7osnWto1HVZxXo4q4Cf6ZNQY35AvCzywQ+OJzjnnBOBgXnuKM65Bz7kVpJgOTfKHbVZLY078layBgopZHVaYw6O/QCtU3Ez8DwxG4wXMbjGsSmdYDiyVtRbH9wiic9KXYGRfGko7rLEBSKX5jtPIkRU51EMvRGUgBrAkPFZrTmcanXgDieXZrj6Qfn2OnJcXHzHAjIzvMg5+EYRljeNTGNiilJeeVFFyPi8axaFTlSAfrhemhYl1eOi2E9uwTFUj+WPqr2V3ZR/K27ywrLfaOU6tL/019Q/TL+1qDwL+Z96DoSMyqDuEiHBjW4ONTmMPK6DY2Erpy9jt6+eZ45rLt0Me/aPtx++6FGytq6CRc0PEYyC2i4Tvi7ZH+W3Uz/zEkXY+cAxc6bUQwuGpvNRmSuAvUzsfl8sPe9cZ8/VGdNrxmDac0hpjgSvNbzd2WocTNrPRuMWw9RLX/QfmY40d8yjBZa+Ywr0Mqlv4K9bhr8gPaic2gPnFm1HfdwjUiTK0jUtxZYuhIImXqAuTqZ2IXkWleE2PNyhBHHT3Cd9afI0hsgO7fnI3vZh7Wj56kTEsrnUz3oqP5CeShUGFdgao0bu1K8G5zGWrXZhQvdbLLLait2nGNLh5GJXyBOTIf1pdjNzasXJlrmNS6R1lOvduf4GgStcDO9+G2um3ojldW12SUExxy9z12hJRJ4Q5FksfqVJA8G1W9N4OYf</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-06T13:14:57.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="4m2FNixglRRDTQCjVJYO" version="18.0.0" type="github">
+  <diagram id="ceKti_Ka-W3cxVjrc0Ye" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NSxaghfgCX7ByZmKsTus-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NSxaghfgCX7ByZmKsTus-2" target="NSxaghfgCX7ByZmKsTus-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-2" value="start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="30" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NSxaghfgCX7ByZmKsTus-4" target="NSxaghfgCX7ByZmKsTus-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-4" value="assign the props rvo id,agent type" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NSxaghfgCX7ByZmKsTus-6" target="NSxaghfgCX7ByZmKsTus-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-6" value="create a helper instance&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NSxaghfgCX7ByZmKsTus-8" target="NSxaghfgCX7ByZmKsTus-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-8" value="create the animation related fields and set NA" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NSxaghfgCX7ByZmKsTus-10" target="NSxaghfgCX7ByZmKsTus-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-10" value="assign property" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" parent="1" source="NSxaghfgCX7ByZmKsTus-12" target="NSxaghfgCX7ByZmKsTus-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-12" value="FOR all custom property" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="NSxaghfgCX7ByZmKsTus-16" target="NSxaghfgCX7ByZmKsTus-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="340" />
+              <mxPoint x="380" y="340" />
+              <mxPoint x="380" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-14" value="Next custom propety" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" parent="NSxaghfgCX7ByZmKsTus-13" vertex="1" connectable="0">
+          <mxGeometry x="0.3724" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" parent="1" source="NSxaghfgCX7ByZmKsTus-16" target="NSxaghfgCX7ByZmKsTus-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-16" value="assign to the class" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSxaghfgCX7ByZmKsTus-17" value="end" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
