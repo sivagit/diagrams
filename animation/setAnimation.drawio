@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T08:45:35.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="VDZZ8SLKtuXdcmDt_Ptw" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T08:55:18.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="1i8sVpizfVDvV8HsflXd" version="18.0.1" type="github">
   <diagram id="C_iFELaq9_Z8a1PLTSBP" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -289,6 +289,9 @@
         <mxCell id="XiMoQWkBVZx55yZSZIgh-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-87" target="XiMoQWkBVZx55yZSZIgh-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-87" target="XiMoQWkBVZx55yZSZIgh-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XiMoQWkBVZx55yZSZIgh-87" value="CASE of card,npc,&lt;br&gt;vehicle" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="960" width="80" height="80" as="geometry" />
         </mxCell>
@@ -517,6 +520,57 @@
         </mxCell>
         <mxCell id="XiMoQWkBVZx55yZSZIgh-172" value="set the reaction anim" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1490" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-181" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-178" target="XiMoQWkBVZx55yZSZIgh-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-178" value="CASE foodtruck" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-183" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-180" target="XiMoQWkBVZx55yZSZIgh-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-180" value="IF args is HP" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-185" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-182" target="XiMoQWkBVZx55yZSZIgh-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-182" value="set the threshold hp value and threshold reach as false" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-184" target="XiMoQWkBVZx55yZSZIgh-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-184" value="FOR all threshold" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-189" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-186" target="XiMoQWkBVZx55yZSZIgh-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-186" value="IF truck hp btwn threshold hp range" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1930" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-188" target="XiMoQWkBVZx55yZSZIgh-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-188" value="set threshold reach as true and construct the anim trigger object" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-190" target="XiMoQWkBVZx55yZSZIgh-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-190" value="call&amp;nbsp;sendRequest for truck anim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-195" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-192" target="XiMoQWkBVZx55yZSZIgh-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-192" value="IF hp threshold count = 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-194" value="construct the truck hp loss 10% anim object" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1810" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
