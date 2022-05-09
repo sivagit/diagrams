@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T08:39:52.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="QZ6WohmVOgw53dre84vx" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T08:45:35.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="VDZZ8SLKtuXdcmDt_Ptw" version="18.0.1" type="github">
   <diagram id="C_iFELaq9_Z8a1PLTSBP" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -476,11 +476,47 @@
         <mxCell id="XiMoQWkBVZx55yZSZIgh-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-158" target="XiMoQWkBVZx55yZSZIgh-160">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-158" target="XiMoQWkBVZx55yZSZIgh-162">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="1570" />
+              <mxPoint x="1370" y="1570" />
+              <mxPoint x="1370" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XiMoQWkBVZx55yZSZIgh-158" value="IF anim gest not NA&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1470" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XiMoQWkBVZx55yZSZIgh-160" value="set the animation against the char" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-162" target="XiMoQWkBVZx55yZSZIgh-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-162" value="IF reaction anim field" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1030" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-167" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-164" target="XiMoQWkBVZx55yZSZIgh-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-170" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-164" target="XiMoQWkBVZx55yZSZIgh-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-164" value="IF anim index not NA" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-166" value="set the reaction anim" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-169" target="XiMoQWkBVZx55yZSZIgh-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-169" value="ELSE" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-172" value="set the reaction anim" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
