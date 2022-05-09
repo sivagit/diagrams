@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T10:27:01.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="dSQBVVJDwXhgvjVFuUZC" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T10:28:53.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="dR1cHHlto8e5EW77zUQ8" version="18.0.1" type="github">
   <diagram id="C_iFELaq9_Z8a1PLTSBP" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -668,11 +668,27 @@
         <mxCell id="XiMoQWkBVZx55yZSZIgh-221" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-218" target="XiMoQWkBVZx55yZSZIgh-220">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-258" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-218" target="XiMoQWkBVZx55yZSZIgh-257">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XiMoQWkBVZx55yZSZIgh-218" value="CASE Tower" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="2240" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XiMoQWkBVZx55yZSZIgh-223" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-220" target="XiMoQWkBVZx55yZSZIgh-222">
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-223" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-220" target="XiMoQWkBVZx55yZSZIgh-222">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-245" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-220" target="XiMoQWkBVZx55yZSZIgh-244">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="2170" />
+              <mxPoint x="850" y="2170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-246" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XiMoQWkBVZx55yZSZIgh-245">
+          <mxGeometry x="-0.6583" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="XiMoQWkBVZx55yZSZIgh-220" value="IF args is HP" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="2210" width="80" height="80" as="geometry" />
@@ -734,6 +750,47 @@
         </mxCell>
         <mxCell id="XiMoQWkBVZx55yZSZIgh-240" value="call&amp;nbsp;sendRequest for tower reaction anim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="580" y="2540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-256" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-244" target="XiMoQWkBVZx55yZSZIgh-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-244" value="ELSE" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="2210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-247" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-249" target="XiMoQWkBVZx55yZSZIgh-251">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-248" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-249" target="XiMoQWkBVZx55yZSZIgh-254">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="2375" />
+              <mxPoint x="930" y="2375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-249" value="IF anim trigger undefined" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="2335" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-250" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-251" target="XiMoQWkBVZx55yZSZIgh-252">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-251" value="IF arg lottie trigger" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="2455" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-252" value="call&amp;nbsp;sendRequest for tower reaction anim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="790" y="2565" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-253" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-254" target="XiMoQWkBVZx55yZSZIgh-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-254" value="ELSE&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2335" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-255" value="call&amp;nbsp;sendRequest for tower anim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-257" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="2750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
