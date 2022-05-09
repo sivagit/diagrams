@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T05:57:46.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" version="18.0.1" etag="XllOAbusexNMz97AhY-p" type="github"><diagram id="C_iFELaq9_Z8a1PLTSBP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-09T07:48:12.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="AYxeWNV5yTU79LA-uAVG" version="18.0.1" type="github">
+  <diagram id="C_iFELaq9_Z8a1PLTSBP" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-1" target="XiMoQWkBVZx55yZSZIgh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-2" target="XiMoQWkBVZx55yZSZIgh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-2" target="XiMoQWkBVZx55yZSZIgh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-2" value="TRY" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-4" value="CATCH" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-6" target="XiMoQWkBVZx55yZSZIgh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-6" value="SWITCH agent type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-8" target="XiMoQWkBVZx55yZSZIgh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-8" value="CASE pop" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-13" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-10" target="XiMoQWkBVZx55yZSZIgh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-10" value="IF anim data undefined" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-12" target="XiMoQWkBVZx55yZSZIgh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-12" value="get the pop grp leader and anim list reaction list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-14" target="XiMoQWkBVZx55yZSZIgh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-14" value="IF anim list not empty" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-16" target="XiMoQWkBVZx55yZSZIgh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-16" value="get the anim and reaction anim trigger" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-18" target="XiMoQWkBVZx55yZSZIgh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-18" value="get the animation data" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-20" target="XiMoQWkBVZx55yZSZIgh-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-20" value="IF anim trigger is pop stop" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-22" target="XiMoQWkBVZx55yZSZIgh-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="690" />
+              <mxPoint x="530" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-22" value="set animation from index 0 value in array" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-24" target="XiMoQWkBVZx55yZSZIgh-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-24" value="IF args reaction anim index" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-26" target="XiMoQWkBVZx55yZSZIgh-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-26" value="set the reaction animation index" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiMoQWkBVZx55yZSZIgh-28" target="XiMoQWkBVZx55yZSZIgh-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-28" value="IF args anim duration" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XiMoQWkBVZx55yZSZIgh-29" value="set the animation duration and get the anim duration" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
