@@ -1,11 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T14:24:52.882Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="iO8ga9P_nqTwOVD0A6Zm" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T14:49:19.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="GoyF05G2p4OiKJrycSdK" version="18.0.2" type="github">
   <diagram id="6cJJi9ygqhNqkfLxohyB" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iLtcgsJgD_sPQD-aOtjp-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iLtcgsJgD_sPQD-aOtjp-1" target="iLtcgsJgD_sPQD-aOtjp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iLtcgsJgD_sPQD-aOtjp-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iLtcgsJgD_sPQD-aOtjp-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iLtcgsJgD_sPQD-aOtjp-2" target="iLtcgsJgD_sPQD-aOtjp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iLtcgsJgD_sPQD-aOtjp-2" value="IF sight rnd data not empty" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iLtcgsJgD_sPQD-aOtjp-4" value="clone the sight range data and initialize the target agent array" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
